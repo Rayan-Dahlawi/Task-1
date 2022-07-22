@@ -6,7 +6,7 @@ In task 1, we should download Ubuntu 20.04 and install ROS Noetic by writing com
 
 ******
 
-In the beginning, we [downloaded VirtualBox](https://www.virtualbox.org/wiki/Downloads). Then [dowload Ubuntu 20.04](https://releases.ubuntu.com/20.04/) to use Linux operating system. 
+In the beginning, [download VirtualBox](https://www.virtualbox.org/wiki/Downloads). Then [download Ubuntu 20.04](https://releases.ubuntu.com/20.04/) to use Linux operating system. 
 
 After that, install ROS Noetic by writing commands at Linux terminal . this is the commands of the installation:
 
