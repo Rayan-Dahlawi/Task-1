@@ -26,65 +26,25 @@ sudo apt-get install ros-noetic-desktop-full
 apt-cache search ros-noetic
 ```
 ```
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc source ~/.bashrc
+source /opt/ros/noetic/setup.bash
 ```
 ```
-sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
-```
-```
-sudo apt install python-rosdep
-```
-```
-sudo rosdep init
-```
-```
-rosdep update
-```
-```
-sudo apt-get install ros-noetic-catkin
-```
-```
-mkdir -p ~/catkin_ws/src
-```
-```
-cd ~/catkin_ws/
-```
-```
-catkin_make
-```
-```
-cd ~/catkin_ws/src
-```
-```
-git clone https://github.com/smart-methods/arduino_robot_arm.git
-```
-```
-cd ~/catkin_ws
-```
-```
-rosdep install --from-paths src --ignore-src -r -y
-```
-```
-sudo apt-get install ros-noetic-moveit
-```
-```
-sudo apt-get install ros-noetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
-```
-```
-sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
-```
-```
-sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
-```
-```
-sudo nano ~/.bashrc
-```
-```
-at the end of the (bashrc) file add the follwing line (source /home/wesam/catkin_ws/devel/setup.bash) then ctrl + o
-```
-```
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 ```
-roslaunch robot_arm_pkg check_motors.launch
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+```
+sudo apt install python3-rosdep
+```
+```
+sudo rosdep init
+rosdep update
+```
+
+To check if ROS installed or not: 
+type this command:
+```
+roscore
 ```
