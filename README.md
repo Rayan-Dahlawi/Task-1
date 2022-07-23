@@ -44,6 +44,9 @@ rosdep update
 ```
 
 To check if ROS installed or not: 
+
+
+
 type this command:
 ```
 roscore
